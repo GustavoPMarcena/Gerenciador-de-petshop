@@ -18,5 +18,6 @@ type PetShop = {
 declare namespace Express {
     export interface Request {
         petshop: PetShop; 
+        pets: Pets;
     }
 }
